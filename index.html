@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=4.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce Website</title>
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -26,12 +27,17 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li>
+          <li id="lg-bag">
             <a href="cart.html"
               ><i class="fa fa-shopping-bag" aria-hidden="true"></i>
             </a>
           </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
         </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a
+        ><i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
     <section id="hero">
@@ -401,7 +407,6 @@
             <i class="fab fa-youtube"></i>
           </div>
         </div>
-        </div>
       </div>
       <div class="col">
         <h4>About</h4>
@@ -410,7 +415,6 @@
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
         <a href="#">Contact Us</a>
-
       </div>
       <div class="col">
         <h4>My Account</h4>
@@ -419,17 +423,16 @@
         <a href="#">My Wishlist</a>
         <a href="#">Track My Order</a>
         <a href="#">Help</a>
-
       </div>
       <div class="col install">
         <h4>Install App</h4>
         <p>From App Store or Google Play</p>
         <div class="row">
-          <img src="img/pay/app.jpg">
-          <img src="img/pay/play.jpg">
+          <img src="img/pay/app.jpg" />
+          <img src="img/pay/play.jpg" />
         </div>
         <p>Secured Payment Gateways</p>
-        <img src="img/pay/pay.png">
+        <img src="img/pay/pay.png" />
       </div>
       <div class="copyright">
         <p>© 2021, Tech2 etc - HTML CSS E-Commerce Website</p>

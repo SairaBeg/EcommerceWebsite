@@ -386,7 +386,7 @@ body {
   height: 3.125rem;
   padding: 0 1.25em;
   font-size: 14px;
-  width: 100px;
+  width: 100%;
   border: 1px solid transparent;
   border-radius: 4px;
   outline: none;
@@ -452,6 +452,9 @@ footer .copyright {
   text-align: center;
 }
 @media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
   #navbar {
     display: flex;
     flex-direction: column;
@@ -492,5 +495,39 @@ footer .copyright {
   }
   #lg-bag {
     display: none;
+  }
+  #hero {
+    height: 70vh;
+
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  #feature {
+    justify-content: center;
+  }
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+  #product1 .pro-container {
+    justify-content: center;
+  }
+  #product1 .pro {
+    margin: 15px;
+  }
+  #banner {
+    height: 20vh;
+  }
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+  #banner3 {
+    padding: 0 40px;
+  }
+  #banner3 .banner-box {
+    width: 28%;
+  }
+  #newsletter .form {
+    width: 70%;
   }
 }
